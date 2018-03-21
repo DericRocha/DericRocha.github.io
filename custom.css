@@ -91,3 +91,4 @@ justify-content: center;}
 .dimg2 {margin-left:0 !important; margin-right:0 !important;background-image: url("pc.jpg");height:180px;background-repeat: no-repeat;background-size: cover;}
 .otherfields p {padding:5px 20px 0px 20px}
 .my-ul{list-style-type:none;padding:0;margin:0}.my-ul li{padding:8px 16px;}.my-ul li:last-child{border-bottom:none}
+.w3-padding-8{padding-top:8px!important;padding-bottom:8px!important}
