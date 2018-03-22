@@ -27,9 +27,16 @@ body, html {
     margin: 0;
     font-size: 100%;
 }
+
+
 .bg {
     /* The image used */
-    background-image: url("pc.jpg");
+
+background-image: url("svgbg.svg");
+background-color: #795548;
+/*background-image: url("svgbg.svg");*/
+/*    background-image: url("pc.jpg");*/
+
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -39,6 +46,9 @@ body, html {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
 }
+
+
+
 /* Quote icon*/
 .t-quote-icon {
 font-size:1000%!important;
@@ -179,7 +189,8 @@ $(document).ready(function(){
 <div class="w3-row w3-mobile">
  <div class="w3-col l4 m3 s1 w3-container"></div>
  <div class="w3-col l4 m6 s10 w3-panel w3-padding-16 w3-card-4 w3-content xt-white">
-  <img src="deric-translator.png" alt="Deric Rocha" class="w3-image">
+<!--  <img src="deric-translator.png" alt="Deric Rocha" class="w3-image">-->
+  <img src="logo.svg" onerror="this.onerror=null; this.src='deric-translator.png'" class="w3-image" alt="Deric Rocha">
   <!--<hr style="width:200px; color:black; margin:0 !important;">-->
   <div class="hr"></div>
 
@@ -377,21 +388,21 @@ $(document).ready(function(){
  <div class="w3-half w3-padding-large">   
   <h3 class="w3-text-black w3-center">File formats handled</h3>
   <p></p>
-  <div class="w3-row-padding">
+  <div class="w3-row-padding w3-small">
    <ul class="w3-ul w3-row-padding w3-col l6 m12 s12">
 	<li><h6>Common file formats</h6></li>
-	<li>MS Word: .doc, .docx, .odt</li>
-	<li>MS Excel: .xls, .xlsx</li>
-	<li>MS Powerpoint: .ppt, .pptx</li>
-	<li>InDesign: .idml, .inx</li>
-	<li>FrameMaker: .mif</li>
-	<li>.pdf</li>
+	<li>MS Word: *.doc, *.docx, *.odt</li>
+	<li>MS Excel: *.xls, *.xlsx</li>
+	<li>MS Powerpoint: *.ppt, *.pptx</li>
+	<li><b>InDesign</b>: *.idml, *.inx</li>
+	<li><b>FrameMaker</b>: *.mif</li>
+	<li>Adobe PDF: *.pdf</li>
 	<li>And many more... <a href="https://www.memoq.com/en/languages-and-file-formats" target="_blank">See all</a></li>
    </ul>
    <ul class="w3-ul w3-row-padding w3-col l6 m12 s12">
 	<li><h6>Translation-specific formats</h6></li>
-	<li>SDL Trados Studio Packages: .sdlppx, .sdlrpx</li>
-	<li>SDL Trados Studio XLIFF: .sdlxilff</li>
+	<li><b>SDL Trados Studio</b> Packages: .sdlppx, .sdlrpx</li>
+	<li><b>SDL Trados Studio</b> XLIFF: .sdlxilff</li>
 	<li>Trados TagEditor: .ttx</li>
 	<li>XLIFF: .xliff, .xlf</li>
 	<li>.po</li>
@@ -1032,5 +1043,6 @@ $('#gform').on('submit', function(e) {
 
 
 <script src="jquery.counterup.min.js"></script>
+
 </body>
 </html>
