@@ -29,10 +29,12 @@ body, html {
 }
 
 
+
+@media only screen and (min-width: 601px) {
 .bg {
     /* The image used */
 
-background-image: url("svgbg.svg");
+background-image: url("pc.jpg");
 background-color: #795548;
 /*background-image: url("svgbg.svg");*/
 /*    background-image: url("pc.jpg");*/
@@ -46,6 +48,9 @@ background-color: #795548;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
 }
+}
+
+@media only screen and (max-width: 600px) {.bg {background-image: url("svgbg.svg"); background-size: cover; background-attachment: fixed;}}
 
 
 
