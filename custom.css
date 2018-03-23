@@ -1,76 +1,57 @@
-
 .hr {
 width: 60% !important;
 height:1px;
 background-color:#bfbfbf;
 margin: 0 auto;
 }
-
 .hrs {
 width: 25% !important;
 height:1px;
 background-color:#bfbfbf;
 margin: 0 auto;
 }
-
 .hrb {
 width: 25% !important;
 height:1px;
 background-color:black;
 margin: 0 auto;
 }
-
-
 .t-gray, .t-grey {
 background:rgb(191, 191, 191); 
 /* Fallback */ background: rgba(191, 191, 191, 0.95);
 }
-
 .t-light-grey, .t-light-gray {
 color:#000!important;
 background:rgb(241, 241, 241); 
 /* Fallback */ 
 background: rgba(241, 241, 241, 0.95);
 }
-
 .t-darkgray, t-darkgrey {
 background:rgb(58, 58, 58); 
 /* Fallback */ background: rgba(58, 58, 58, 0.7);
 }
-
 .t-white {color:#000!important;
 background:rgb(255, 255, 255); 
-/* Fallback */ background: rgba(255, 255, 255, 0.9);
+/* Fallback */ background: rgba(255, 255, 255, 0.85);
 }
-
-
 .xt-white {color:#000!important;
 background:rgb(255, 255, 255); 
 /* Fallback */ background: rgba(255, 255, 255, 0.77);
 }
-
 .t-black {color:#fff!important;
 background:rgb(0, 0, 0); 
 /* Fallback */ background: rgba(0, 0, 0, 0.9);
 }
-
-
 .t-brown {color:#fff!important;
 background:rgb(121, 85, 72); 
 /* Fallback */ background: rgba(121, 85, 72, 0.9);
 }
-
 .w3-animate-fading1{animation:fading 6s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
-
 .x-hover-greyscale,.x-hover-grayscale{filter:grayscale(100%)}
 .x-hover-greyscale:hover,.x-hover-grayscale:hover{filter:grayscale(0%)}
-
 .x-hover-sepia{filter:sepia(100%)}
 .x-hover-sepia:hover{filter:sepia(0%)}
-
-
 .mainsp {font-size:0.9em !important; font-weight:bold; text-transform: uppercase;font-family: "Montserrat";}
-
 .availcal {background:#F8F7F1;}
 .doctypes {width:50px;font-family: "Muli";}
 .statbar {font-family: "Montserrat";}
@@ -82,9 +63,9 @@ min-height:220px !important;
 display: flex;
 flex-direction: column;
 justify-content: center;}
-
 .navico {vertical-align: middle; margin: 9px;}
 .navicomobile {vertical-align: middle; margin: 5px;}
+.transfeat {font-family: "Montserrat";}
 .translator-features div div {width:150px; height:150px; margin:auto;}
 .translator-features {margin-top:0 !important; margin-bottom:0 !important;}
 .dimg {margin-left:0 !important; margin-right:0 !important;background-image: url("technical2.jpg");height:180px;background-repeat: no-repeat;background-size: cover;}
