@@ -450,7 +450,7 @@ time: 1500 // the speed time in ms
       <div class="w3-col l3 m6 s12">
       <div class="w3-section w3-circle w3-display-container t-brown" style="width: 230px;height: 230px;margin:auto">
        <div class="w3-display-middle" style="white-space: nowrap;">
-        <span><span class="w3-xxlarge contar" style="white-space: nowrap;">1,065,300</span><span class="w3-xxlarge">+</span><br>
+        <span><span class="w3-xxlarge contar" style="white-space: nowrap;">1,065,489</span><span class="w3-xxlarge">+</span><br>
         Words Translated</span>
        </div>
       </div>
@@ -459,7 +459,7 @@ time: 1500 // the speed time in ms
       <div class="w3-col l3 m6 s12">
       <div class="w3-section w3-circle w3-display-container t-brown" style="width: 230px;height: 230px;margin:auto">
        <div class="w3-display-middle" style="white-space: nowrap;">
-        <span class="w3-xxlarge contar" style="white-space: nowrap;">664</span><span class="w3-xxlarge">+</span><br>
+        <span class="w3-xxlarge contar" style="white-space: nowrap;">667</span><span class="w3-xxlarge">+</span><br>
         Projects Done
        </div>
       </div>
@@ -670,7 +670,7 @@ function carousel() {
     <h2 class="w3-center">Translation Rates</h2>
     <!--<hr style="width:200px" class="w3-opacity">-->
     <div class="w3-padding"></div><div class="hrb"></div>
-  <p class="w3-section w3-padding-32">The rates mentioned below are <i>for reference only</i> and may vary depending on the project. To get a more accurate quote, please <a href="#contact">contact me</a> or fill out <a href="javascript:;" onclick="document.getElementById('tcquote').style.display='block'">this quote form</a>.</p>
+  <p class="w3-section w3-padding-32">The rates mentioned below are <i>for reference only</i> and may vary depending on the project. To get a more accurate quote, please <a href="#contact">contact me</a> or fill out <a href="javascript:;" onclick="document.getElementById('tcquote').style.display='block';document.getElementById('tcifr').src='https://www.translatorscafe.com/tcutils/en-US/profile/freeQuote.aspx?tid=152134'">this quote form</a>.</p>
 
 
 
@@ -688,7 +688,7 @@ function carousel() {
        <div class="w3-padding-16"></div>
        <div class="w3-padding-16 w3-small">This is my quotation form from an external translation portal website. If you want to open it directly in another window, please <a href="https://www.translatorscafe.com/tcutils/en-US/profile/freeQuote.aspx?tid=152134" target="_blank" title="Open this TranslatorsCafé.com Quote Form in another window">click here</a>.</div>
         <span onclick="document.getElementById('tcquote').style.display='none'" class="w3-button w3-red w3-display-topright" title="Close">&times;</span>
-        <div class="w3-center w3-padding"><iframe src="https://www.translatorscafe.com/tcutils/en-US/profile/freeQuote.aspx?tid=152134" frameborder="0" width="780px" height="1200px" scrolling="yes" allowtransparency="true"></iframe></div>
+        <div class="w3-center w3-padding"><iframe id="tcifr" frameborder="0" width="780px" height="1200px" scrolling="yes" allowtransparency="true"></iframe></div>
       </div>
     </div>
   </div>
@@ -719,7 +719,7 @@ function carousel() {
             <span class="w3-opacity">per source word</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black" onclick="document.getElementById('tcquote').style.display='block'">Get a free quote now</button>
+            <button class="w3-button w3-white w3-padding-large w3-hover-black" onclick="document.getElementById('tcquote').style.display='block';document.getElementById('tcifr').src='https://www.translatorscafe.com/tcutils/en-US/profile/freeQuote.aspx?tid=152134'">Get a free quote now</button>
           </li>
         </ul>
       </div>
@@ -733,7 +733,7 @@ function carousel() {
             <span class="w3-opacity">per source word</span>
           </li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black" onclick="document.getElementById('tcquote').style.display='block'">Get a free quote now</button>
+            <button class="w3-button w3-white w3-padding-large w3-hover-black" onclick="document.getElementById('tcquote').style.display='block';document.getElementById('tcifr').src='https://www.translatorscafe.com/tcutils/en-US/profile/freeQuote.aspx?tid=152134'">Get a free quote now</button>
           </li>
         </ul>
       </div>
@@ -780,14 +780,14 @@ function carousel() {
 
 
 <div class="w3-container" style="padding-right:0px !important;">
-  <button onclick="document.getElementById('acal').style.display='block'" class="w3-button w3-brown w3-card w3-right" style="margin-right:0px !important;"><i class="material-icons" style="vertical-align: middle;margin-right:8px;">&#xE614;</i>See my current availability</button>
+  <button onclick="document.getElementById('acal').style.display='block';document.getElementById('prozifr').src='https://www.proz.com/?sp=calendar&entity_id=1454081&float=1&visitor=1'" class="w3-button w3-brown w3-card w3-right" style="margin-right:0px !important;"><i class="material-icons" style="vertical-align: middle;margin-right:8px;">&#xE614;</i>See my current availability</button>
 
   <div id="acal" class="w3-modal">
     <div class="w3-modal-content w3-animate-zoom">
       <div class="w3-container availcal">
        <div class="w3-padding-16"></div>
         <span onclick="document.getElementById('acal').style.display='none'" class="w3-button w3-red w3-display-topright">&times;</span>
-        <div class="w3-center w3-padding"><iframe src="https://www.proz.com/?sp=calendar&entity_id=1454081&float=1&visitor=1" frameborder="0" width="620px" height="1500px" scrolling="yes" allowtransparency="true"></iframe></div>
+        <div class="w3-center w3-padding"><iframe id="prozifr" frameborder="0" width="620px" height="1500px" scrolling="yes" allowtransparency="true"></iframe></div>
       </div>
     </div>
   </div>
