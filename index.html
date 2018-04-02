@@ -12,7 +12,7 @@
 
 
 <style>
-body, p {font-family: "Muli", sans-serif; font-weight: 300}
+body, p {font-family: "Muli", sans-serif!important; font-weight: 300}
 h1,h2,h3,h4,h5,h6 {font-family: "Montserrat","Segoe UI",Arial,sans-serif!important}
 .abouttext p {text-indent: 1em;line-height:130%;}
 .w3-row-padding img {margin-bottom: 12px}
@@ -380,21 +380,21 @@ $(document).ready(function(){
  <div class="w3-half w3-padding-large">   
   <h3 class="w3-text-black w3-center">File formats handled</h3>
   <p></p>
-  <div class="w3-row-padding w3-small">
+  <div class="w3-row-padding">
    <ul class="w3-ul w3-row-padding w3-col l6 m12 s12">
 	<li><h6>Common file formats</h6></li>
-	<li>MS Word: *.doc, *.docx, *.odt</li>
-	<li>MS Excel: *.xls, *.xlsx</li>
-	<li>MS Powerpoint: *.ppt, *.pptx</li>
-	<li><b>InDesign</b>: *.idml, *.inx</li>
-	<li><b>FrameMaker</b>: *.mif</li>
+	<li>Microsoft Word&trade;: *.doc, *.docx, *.odt</li>
+	<li>Microsoft Excel&trade;: *.xls, *.xlsx</li>
+	<li>Microsoft Powerpoint&trade;: *.ppt, *.pptx</li>
+	<li><b>InDesign&trade;</b>: *.idml, *.inx</li>
+	<li><b>FrameMaker&trade;</b>: *.mif</li>
 	<li>Adobe PDF: *.pdf</li>
-	<li>And many more... <a href="https://www.memoq.com/en/languages-and-file-formats" target="_blank">See all</a></li>
+	<li>And many more... <a href="javascript:;" onclick="document.getElementById('allfiletypes').style.display='block'">See all</a></li>
    </ul>
    <ul class="w3-ul w3-row-padding w3-col l6 m12 s12">
 	<li><h6>Translation-specific formats</h6></li>
-	<li><b>SDL Trados Studio</b> Packages: .sdlppx, .sdlrpx</li>
-	<li><b>SDL Trados Studio</b> XLIFF: .sdlxilff</li>
+	<li><b>SDL Trados Studio&trade;</b> Packages: .sdlppx, .sdlrpx</li>
+	<li><b>SDL Trados Studio&trade;</b> XLIFF: .sdlxilff</li>
 	<li>Trados TagEditor: .ttx</li>
 	<li>XLIFF: .xliff, .xlf</li>
 	<li>.po</li>
@@ -404,14 +404,153 @@ $(document).ready(function(){
   </div>
  </div>
  <div class="w3-half w3-padding-large w3-light-grey">
-  <h3 class="w3-center">Translation Software (<abbr title="Computer-Assisted Translation" style="border-bottom: none !important; cursor: inherit !important; text-decoration: none !important;">CAT</abbr> tools)</h3>
+  <h3 class="w3-center">Translation Software (<abbr title="Computer-Assisted Translation" style="border-bottom: none !important; cursor: inherit !important; text-decoration: none !important;">CAT</abbr> tools) used</h3>
+  <p class="">Your 100% human translations into Brazilian Portuguese are processed using memoQ&trade;, an industry-leading computer-assisted translation program. Other tools may be used as required, such as Across&trade;, or your company's own system. As you probably know, these tools don't translate content, but rather, they are used to ensure consistency of translated terms, proper handling of several file types, and that all applicable sentences receive a translation.</p>
    <ul class="my-ul w3-mobile w3-center">
-	<li class="w3-row-padding w3-col l4 m12 s12"><a href="https://www.memoq.com" target="_blank"><img class="w3-image x-hover-grayscale" src="memoQ-logo-200x200-PNG.png" width="200px" height="200px" alt="memoQ"></a><br>memoQ</li>
-	<li class="w3-row-padding w3-col l4 m12 s12"><a href="https://www.across.net/en/" target="_blank"><img class="w3-image x-hover-grayscale" src="cat_across.png" width="200px" height="200px" alt="across‘’"></a><br>Across</li>
+	<li class="w3-row-padding w3-col l4 m12 s12"><a href="https://www.memoq.com" target="_blank"><img class="w3-image x-hover-grayscale" src="memoQ-logo-200x200-PNG.png" width="150px" height="150px" alt="memoQ"></a><br>memoQ&trade;</li>
+	<li class="w3-row-padding w3-col l4 m12 s12"><a href="https://www.across.net/en/" target="_blank"><img class="w3-image x-hover-grayscale" src="cat_across.png" width="150px" height="150px" alt="across‘’"></a><br>Across&trade;</li>
 	<li class="w3-row-padding w3-col l4 m12 s12" style="min-height:220px !important;display: flex;flex-direction: column;justify-content: center;">Your system of choice...</li>
    </ul>
  </div>
 </div>
+
+
+
+
+
+
+
+<div class="w3-container">
+  <div id="allfiletypes" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container">
+       <div class="w3-padding-16 w3-center"><h4><strong>Supported file formats</strong></h4></div>
+        <span onclick="document.getElementById('allfiletypes').style.display='none'" class="w3-button w3-red w3-display-topright" title="Close">&times;</span>
+        <div class="w3-padding-32 w3-article">
+          
+
+<div class="w3-small">Source: <a href="https://www.memoq.com/en/languages-and-file-formats" title="Supported file formats for translation in memoQ" target="_blank">https://www.memoq.com/en/languages-and-file-formats</a></div>
+
+<div><br />
+<strong>Source documents:</strong></div>
+
+<ul>
+	<li>Adobe Framemaker&trade; (.MIF)</li>
+	<li>Adobe InCopy&trade;</li>
+	<li>Adobe InDesign&trade; (.INDD)</li>
+	<li>Adobe InDesign&trade; (.INX)</li>
+	<li>Adobe InDesign&trade; Markup Language (.IDML)</li>
+	<li>Adobe PDF files (.PDF)</li>
+	<li>Adobe PhotoShop&trade; (.PSD) - you need to open the file in Photoshop for the translation to be visible</li>
+	<li>AuthorIT (.XML)</li>
+	<li>DITA (.DITA, .XML)</li>
+	<li>FreeMind mind maps (.MM)</li>
+	<li>HTML (.HTML, .HMT, .SHT), including HTML5</li>
+	<li>Microsoft Word&trade; 2003 (.DOC, .RTF, .BAK, .DOT)</li>
+	<li>Microsoft Word&trade; 2007-2013 (.DOCX)</li>
+	<li>Microsoft Excel&trade; 2003 (.XLS, .XML, .XLT)</li>
+	<li>Microsoft Excel&trade; 2007-2013 (.XLSX, .XLSM)</li>
+	<li>Microsoft PowerPoint&trade; 2003 (.PPT, .PPS, .POT)</li>
+	<li>Microsoft PowerPoint&trade; 2007-2013 (.PPTX, .PPSX, .POTX, .SLDX)</li>
+	<li>Microsoft Visio&trade; (.VDX)</li>
+	<li>MS Help&trade; Workshop (.HHC, .HHK)</li>
+	<li>OpenDocument text documents (.ODT, .ODF)</li>
+	<li>Plain text (.TXT, .INF, .INI, .REG)</li>
+	<li>Rich Text Format&trade; (.RTF, two-column .RTF)</li>
+	<li>Scalable Vector Graphics (.SVG)</li>
+	<li>TMX filter</li>
+	<li>Typo3 pages (.XML)</li>
+	<li>XML (.XML) and SGML (.SGML) files</li>
+	<li>YAML (.YAML)</li>
+	<li><em>Basically, any text based document</em></li>
+	<li><em>Complex documents (for example HTML embedded into Excel files)</em></li>
+	<li><em>Microsoft Office documents embedded into other documents</em></li>
+	<li><em>TMX files can be imported as translation documents</em></li>
+	<li><em>Image files</em></li>
+</ul>
+<br />
+<strong>Software localization formats:</strong>
+
+<ul>
+	<li>.NET resource files (.RESX)</li>
+	<li>HTML (.HTML, .HMT, .SHT), including HTML5</li>
+	<li>Java properties</li>
+	<li>JSON</li>
+	<li>Multilingual XML formats (XML, using xPath)</li>
+	<li>Multilingual Excel/CSV formats (CSV, TSV, XLS, XLSX)*</li>
+	<li>PO Gettext files (.PO)</li>
+	<li>Regex text filter</li>
+	<li>XML</li>
+	<li>YAML</li>
+	<li><em>Any text based document</em></li>
+	<li><em>HTML embedded in TSV files</em></li>
+	<li><em>* Multilingual Excel files are documents with multiple columns, each representing a different language, context or other information</em></li>
+</ul>
+<br />
+<strong>Bilingual Documents:</strong>
+
+<ul>
+	<li>memoQ Bilingual Document (.MBD)</li>
+	<li>memoQ XLIFF (.MQXLZ)</li>
+	<li>SDL TradosTag (.TTX)</li>
+	<li>SDL Trados / Wordfast Classic bilingual RTF (.RTF or .DOC, pre-segmented)</li>
+	<li>SDL Worldserver XLIFF (.XLZ)</li>
+	<li>SDLXLIFF (.SDLXLIFF)</li>
+	<li>SDL WSXZ (.WSXZ)&nbsp;</li>
+	<li>Two-column .RTF export (.RTF)</li>
+	<li>Wordfast Professional TXML (.TXML)</li>
+	<li>XLIFF (.XLF, .XLIF, .XLIFF)</li>
+	<li>Interoperability Now! XLIFF:doc</li>
+</ul>
+<br />
+<strong>Project Files:</strong>
+
+<ul>
+	<li>Handoff packages (.MQOUT)</li>
+	<li>Handback packages (.MQBACK)</li>
+	<li>SDL Studio package (.SDLPPX)</li>
+	<li>STAR Transit project (.PXF, .PPF)</li>
+	<li>TIPP package</li>
+</ul>
+<br />
+<strong>Translation Memories:</strong>
+
+<ul>
+	<li>Translation Memory eXchange (.TMX) 1.1-1.4</li>
+	<li>memoQ translation memories</li>
+</ul>
+<br />
+<strong>Term bases:</strong>
+
+<ul>
+	<li>Delimited files (.CSV, .TSV, .TXT)</li>
+	<li>Microsoft Excel term bases (.XLS)</li>
+	<li>SDL Multiterm XML term bases (.XML)</li>
+	<li>TBX files (.TBX)</li>
+	<li>Translation Memory eXchange (.TMX) 1.1-1.4</li>
+	<li>memoQ term bases</li>
+</ul>
+<br />
+<strong>Segmentation rules:</strong>
+
+<ul>
+	<li>Segmentation Rule eXchange (.SRX)</li>
+</ul>
+&nbsp;
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
 
 
 </div>
@@ -575,7 +714,7 @@ function carousel() {
      <div class="w3-padding-24">
      <div class="w3-hide-large w3-padding-16"></div>
       <div style="display:table; margin:auto;"><a href="http://atanet.org/onlinedirectories/tsd_view.php?id=16903" target="_blank"><img src="ATA_logo_web_ind.jpg" class="w3-image w3-card-4 x-hover-grayscale" alt="American Translators Association Individual Member"></a><br><br></div>
-      <div style="display:table; margin:auto;"><a href="http://www.proz.com/translator/1454081" target="_blank"><img src="certified-pro.png" class="w3-image w3-card-4 x-hover-grayscale" alt="Member of the ProZ.com Certified PRO Network" style="max-width:183px"></a></div>
+      <div style="display:table; margin:auto;"><a href="http://www.proz.com/translator/1454081" target="_blank" title="Professional Brazilian-Portuguese translator"><img src="certified-pro.png" class="w3-image w3-card-4 x-hover-grayscale" alt="Member of the ProZ.com Certified PRO Network" style="max-width:183px"></a></div>
      <div class="w3-hide-large w3-hide-medium w3-padding-16"></div>
      </div>
   </div>
@@ -831,7 +970,7 @@ $('#gform').on('submit', function(e) {
 
 
     <div class="w3-padding-32"></div>
-    <p class="w3-tiny w3-right w3-margin-right">Designed by <b>Deric Rocha</b> using the <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green" style="text-decoration:none;"><b>w3.css</b></a> framework.<br><a href="javascript:;" onclick="document.getElementById('credits').style.display='block'" class="w3-tiny w3-right w3-margin-right">Credits</a></p>
+    <p class="w3-tiny w3-right w3-margin-right">Designed by <b>Deric Rocha</b> using the <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green" style="text-decoration:none;"><b>w3.css</b></a> framework.<br><a href="javascript:;" onclick="document.getElementById('credits').style.display='block'" class="w3-tiny w3-right w3-margin-right">Credits & Legal Notices</a></p>
 
 
 
@@ -843,12 +982,14 @@ $('#gform').on('submit', function(e) {
     <div class="w3-modal-content w3-animate-zoom">
       <div class="w3-container w3-center">
        <div class="w3-padding-16"></div>
-       <div class="w3-padding-16 w3-small">Website Resources Credits:</div>
+       <div class="w3-padding-16">Credits & Legal Notices:</div>
         <span onclick="document.getElementById('credits').style.display='none'" class="w3-button w3-red w3-display-topright" title="Close">&times;</span>
-        <div class="w3-padding-32 w3-article w3-small">
-          <div>Icons made by <a href="https://www.flaticon.com/authors/zlatko-najdenovski" title="Zlatko Najdenovski">Zlatko Najdenovski</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-          <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-          <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        <div class="w3-padding-32 w3-article w3-medium">
+          <p>Icons made by <a href="https://www.flaticon.com/authors/zlatko-najdenovski" title="Zlatko Najdenovski">Zlatko Najdenovski</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> are licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+          <p>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> are licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+          <p>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> are licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+          <br><div class="hr"></div><br>
+          <p>All product names, logos, and brands are property of their respective owners.<br>All product and company names are trademarks™ or registered® trademarks of their respective holders. <br>All company, product and service names used in this website are for identification purposes only.</p>
         </div>
       </div>
     </div>
