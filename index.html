@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116831390-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116831390-1');
+</script>
 <html lang="en">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -565,7 +574,7 @@ $(document).ready(function(){
 
 
     <!--ROUND Statistics bar-->
-    <div class="w3-row-padding w3-center w3-container w3-section statbar">
+    <div class="w3-row-padding w3-center w3-container w3-section statbar w3-tooltip">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> 
     <script>
 jQuery(document).ready(function( $ ) {
@@ -611,7 +620,8 @@ time: 1500 // the speed time in ms
        </div>
       </div>
       </div>
-
+<span class="w3-text w3-tiny w3-round-xlarge w3-right w3-animate-opacity">Statistics last updated on <script type="text/javascript">document.write(document.lastModified);</script></span>
+<span>&nbsp;</span>
     </div>
     <!--End ROUND Statistics bar-->
 
@@ -882,7 +892,7 @@ function carousel() {
 <p id="contato">Lets get in touch. Send me a message:</p>
 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLScCXAkW3nW0h9zXph2djLKmR_hHGW866uKhKEeTw94jyTpH_Q/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="entry.2872007" id="entry_2872007"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="entry.1000001" id="entry_1000001"></p>
+      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="entry.1000001" id="entry_1000001"></p>
       <p><textarea wrap="off" class="w3-input w3-padding-16" placeholder="Message" required name="entry.1000002" rows="10" cols="50" id="entry_1000002" dir="auto" style="overflow: auto;"></textarea></p>
       <p>
         <button class="w3-button w3-light-grey w3-padding-large w3-text-brown" type="submit">
